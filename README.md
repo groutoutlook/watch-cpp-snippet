@@ -3,9 +3,15 @@
 A REPL-style "development environment" for small C++ snippets.
 For cases where an online compiler is out of the question.
 
-# Caution!
+# TODO
 
-- if in windows, just use `WSL`.
+## Issue
+
+- if in `Windows`, just use `WSL` for now.
+
+## PowerShell
+
+- Twerk the code to PowerShell.
 
 ![minicpp](https://i.imgur.com/nyUedKx.png)
 
@@ -34,9 +40,3 @@ If you want to start from scratch, you can call
 
 Make sure that `inotifywait` is installed. It should be available
 for most Linux distributions (the package is typically called `inotify-tools`).
-
-Apart from that, you just need to clone the repository:
-
-```bash
-git clone --recursive https://github.com/sharkdp/minicpp
-```
